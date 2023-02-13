@@ -56,7 +56,7 @@ function handleSearch(e){
 
   imagesList.textContent = "";
   if(!input.value){
-    errorMsg.textContent = "L'objet de la recherche de peut être vide."
+    errorMsg.textContent = "L'objet de la recherche doit contenir un mot-clé."
     return;
   }
 
